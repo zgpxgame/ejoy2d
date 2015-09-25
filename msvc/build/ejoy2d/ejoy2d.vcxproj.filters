@@ -21,6 +21,18 @@
     <Filter Include="lib\src\render">
       <UniqueIdentifier>{190d12fe-25b2-430a-8db5-9ee3abf54a20}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ejoy2d">
+      <UniqueIdentifier>{2c44776b-0685-4d49-be17-b69164f1b05d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="examples">
+      <UniqueIdentifier>{813bc945-eab9-4098-8860-fc7dbcfb44b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="examples\asset">
+      <UniqueIdentifier>{21a9e3a6-ee2e-409a-ac00-89d5d9850677}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="doc">
+      <UniqueIdentifier>{20b0c04d-2f5f-46a4-bc71-f7ff988358c5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\mingw\window.c">
@@ -202,5 +214,100 @@
     <ClInclude Include="..\..\..\lib\render\render.h">
       <Filter>lib\src\render</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\ejoy2d\geometry.lua">
+      <Filter>ejoy2d</Filter>
+    </None>
+    <None Include="..\..\..\ejoy2d\init.lua">
+      <Filter>ejoy2d</Filter>
+    </None>
+    <None Include="..\..\..\ejoy2d\matrix.lua">
+      <Filter>ejoy2d</Filter>
+    </None>
+    <None Include="..\..\..\ejoy2d\particle.lua">
+      <Filter>ejoy2d</Filter>
+    </None>
+    <None Include="..\..\..\ejoy2d\richtext.lua">
+      <Filter>ejoy2d</Filter>
+    </None>
+    <None Include="..\..\..\ejoy2d\shader.lua">
+      <Filter>ejoy2d</Filter>
+    </None>
+    <None Include="..\..\..\ejoy2d\simplepackage.lua">
+      <Filter>ejoy2d</Filter>
+    </None>
+    <None Include="..\..\..\ejoy2d\sprite.lua">
+      <Filter>ejoy2d</Filter>
+    </None>
+    <None Include="..\..\..\ejoy2d\spritepack.lua">
+      <Filter>ejoy2d</Filter>
+    </None>
+    <None Include="..\..\..\examples\ex01.lua">
+      <Filter>examples</Filter>
+    </None>
+    <None Include="..\..\..\examples\ex02.lua">
+      <Filter>examples</Filter>
+    </None>
+    <None Include="..\..\..\examples\ex03.lua">
+      <Filter>examples</Filter>
+    </None>
+    <None Include="..\..\..\examples\ex04.lua">
+      <Filter>examples</Filter>
+    </None>
+    <None Include="..\..\..\examples\ex05.lua">
+      <Filter>examples</Filter>
+    </None>
+    <None Include="..\..\..\examples\ex06.lua">
+      <Filter>examples</Filter>
+    </None>
+    <None Include="..\..\..\examples\ex07.lua">
+      <Filter>examples</Filter>
+    </None>
+    <None Include="..\..\..\examples\ex08.lua">
+      <Filter>examples</Filter>
+    </None>
+    <None Include="..\..\..\examples\ex09.lua">
+      <Filter>examples</Filter>
+    </None>
+    <None Include="..\..\..\examples\flappybird.lua">
+      <Filter>examples</Filter>
+    </None>
+    <None Include="..\..\..\examples\asset\bird_config.lua">
+      <Filter>examples\asset</Filter>
+    </None>
+    <None Include="..\..\..\examples\asset\birds.1.pgm">
+      <Filter>examples\asset</Filter>
+    </None>
+    <None Include="..\..\..\examples\asset\birds.1.ppm">
+      <Filter>examples\asset</Filter>
+    </None>
+    <None Include="..\..\..\examples\asset\birds.lua">
+      <Filter>examples\asset</Filter>
+    </None>
+    <None Include="..\..\..\examples\asset\particle.1.pgm">
+      <Filter>examples\asset</Filter>
+    </None>
+    <None Include="..\..\..\examples\asset\particle.1.ppm">
+      <Filter>examples\asset</Filter>
+    </None>
+    <None Include="..\..\..\examples\asset\particle.lua">
+      <Filter>examples\asset</Filter>
+    </None>
+    <None Include="..\..\..\examples\asset\particle_particle_config.lua">
+      <Filter>examples\asset</Filter>
+    </None>
+    <None Include="..\..\..\examples\asset\sample.1.pgm">
+      <Filter>examples\asset</Filter>
+    </None>
+    <None Include="..\..\..\examples\asset\sample.1.ppm">
+      <Filter>examples\asset</Filter>
+    </None>
+    <None Include="..\..\..\examples\asset\sample.lua">
+      <Filter>examples\asset</Filter>
+    </None>
+    <None Include="..\..\..\doc\apicn.md">
+      <Filter>doc</Filter>
+    </None>
   </ItemGroup>
 </Project>

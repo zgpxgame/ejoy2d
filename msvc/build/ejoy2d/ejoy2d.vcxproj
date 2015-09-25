@@ -81,6 +81,39 @@
       <Project>{029e13fb-276a-4b6f-8346-00f3072734e7}</Project>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\doc\apicn.md" />
+    <None Include="..\..\..\ejoy2d\geometry.lua" />
+    <None Include="..\..\..\ejoy2d\init.lua" />
+    <None Include="..\..\..\ejoy2d\matrix.lua" />
+    <None Include="..\..\..\ejoy2d\particle.lua" />
+    <None Include="..\..\..\ejoy2d\richtext.lua" />
+    <None Include="..\..\..\ejoy2d\shader.lua" />
+    <None Include="..\..\..\ejoy2d\simplepackage.lua" />
+    <None Include="..\..\..\ejoy2d\sprite.lua" />
+    <None Include="..\..\..\ejoy2d\spritepack.lua" />
+    <None Include="..\..\..\examples\asset\birds.1.pgm" />
+    <None Include="..\..\..\examples\asset\birds.1.ppm" />
+    <None Include="..\..\..\examples\asset\birds.lua" />
+    <None Include="..\..\..\examples\asset\bird_config.lua" />
+    <None Include="..\..\..\examples\asset\particle.1.pgm" />
+    <None Include="..\..\..\examples\asset\particle.1.ppm" />
+    <None Include="..\..\..\examples\asset\particle.lua" />
+    <None Include="..\..\..\examples\asset\particle_particle_config.lua" />
+    <None Include="..\..\..\examples\asset\sample.1.pgm" />
+    <None Include="..\..\..\examples\asset\sample.1.ppm" />
+    <None Include="..\..\..\examples\asset\sample.lua" />
+    <None Include="..\..\..\examples\ex01.lua" />
+    <None Include="..\..\..\examples\ex02.lua" />
+    <None Include="..\..\..\examples\ex03.lua" />
+    <None Include="..\..\..\examples\ex04.lua" />
+    <None Include="..\..\..\examples\ex05.lua" />
+    <None Include="..\..\..\examples\ex06.lua" />
+    <None Include="..\..\..\examples\ex07.lua" />
+    <None Include="..\..\..\examples\ex08.lua" />
+    <None Include="..\..\..\examples\ex09.lua" />
+    <None Include="..\..\..\examples\flappybird.lua" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{D3A9E9A6-062D-4C26-BF35-8F18ED840D8F}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
@@ -90,13 +123,13 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v110</PlatformToolset>
+    <PlatformToolset>v120</PlatformToolset>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v110</PlatformToolset>
+    <PlatformToolset>v120</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
